@@ -1,11 +1,11 @@
 // Make sure we wait to attach our handlers until the DOM is fully loaded.
 $(function() {
-  $(".change-sleep").on("click", function(event) {
+  $(".Eat").on("click", function(event) {
     var id = $(this).data("id");
-    var newSleep = $(this).data("newsleep");
+    var ate = 1
 
     var newSleepState = {
-      sleepy: newSleep
+      devoured: ate
     };
 
     // Send the PUT request.
@@ -26,8 +26,8 @@ $(function() {
     event.preventDefault();
 
     var newCat = {
-      name: $("#ca").val().trim(),
-      sleepy: $("[name=sleepy]:checked").val().trim()
+      burger_name: $("#ca").val().trim(),
+      devoured: 0
     };
 
     // Send the POST request.
