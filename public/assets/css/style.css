@@ -16,8 +16,44 @@ li {
 
 .form-group {
   margin-bottom: 5px;
+  display: inline;
 }
 
 body{
-background-color: rgb(226, 90, 90);
+background-color: rgb(190, 149, 149);
+}
+.headerTitle{ 
+background-color: blanchedalmond;
+width: 100%;
+padding-top: 25px;
+padding-bottom: 25px;
+outline: 5px solid black;
+}
+
+.burgerImg{
+ height: 90px;
+}
+.fries{
+  height: 90px;
+  margin: 0%;
+}
+
+.title{
+  font-size: 150px;
+  text-align: center;
+}
+
+.lineupBurger{
+  display: flex;
+  justify-content: center;
+  margin-top: 100px;
+}
+.delicacy{
+  margin-right: 100px;
+}
+
+.pickOne{
+  text-align: center;
+  
+
 }

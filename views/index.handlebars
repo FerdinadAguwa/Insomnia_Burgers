@@ -1,5 +1,8 @@
-<h1>Insomnia Munchies</h1>
-<img src="./public/images/280-2809072_burger-sandwich-clipart-png-burger-clipart-transparent-background.png" alt="picture of a burger">
+<div class="headerTitle">
+  <h1 class="title ">Ins<span><img src="/images/burgerrrr.png" class="burgerImg" alt="picture of a burger"></span>mnia
+    M<span><img src="/images/fries.png" class="fries" alt="fries"></span>nchies</h1>
+</div>
+<div class="pickOne"> 
 <h2>Pick a Burger any Burger</h2>
 <form class="create-form">
 
@@ -9,33 +12,42 @@
   </div>
 
   <div class="form-group">
-  
+
   </div>
 
   <button type="submit">Add Burger</button>
 </form>
-<h2>Burgers you would like to eat!</h2>
+</div>
 
-<ul>
-  {{#each burger}}
+
+<div class="lineupBurger">
+  <div class="delicacy">
+  <h2>Which delicacy would like to eat!</h2>
+  <br>
+
+  <ul>
+    {{#each burger}}
     {{#unless devoured}}
-      {{burger_name}}
-      <button class="Eat" data-id="{{id}}" data-newdevoured="{{devoured}}">
-        swallow
+    {{burger_name}}
+    <button class="Eat" data-id="{{id}}" data-newdevoured="{{devoured}}">
+      swallow
     </button>
     <br>
     {{/unless}}
-  {{/each}}
-</ul>
+    {{/each}}
+  </ul>
+</div>
 
-<h2>Burgers already DEVOURED!</h2>
+<div class="devoured">
+  <h2>Burgers already DEVOURED!</h2>
 
-<ul>
-  {{#each burger}}
+  <ul>
+    {{#each burger}}
     {{#if devoured}}
-     {{burger_name}}
-     <br>
+    {{burger_name}}
+    <br>
     {{/if}}
-  {{/each}}
-</ul>
-
+    {{/each}}
+  </ul>
+  </div>
+</div>
