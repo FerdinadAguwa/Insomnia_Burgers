@@ -25,7 +25,7 @@ $(function() {
     // Make sure to preventDefault on a submit event.
     event.preventDefault();
 
-    var newCat = {
+    var newBurger = {
       burger_name: $("#ca").val().trim(),
       devoured: 0
     };
@@ -33,25 +33,10 @@ $(function() {
     // Send the POST request.
     $.ajax("/api/burger", {
       type: "POST",
-      data: newCat
+      data: newBurger
     }).then(
       function() {
-        console.log("created new cat");
-        // Reload the page to get the updated list
-        location.reload();
-      }
-    );
-  });
-
-  $(".delete-cat").on("click", function(event) {
-    var id = $(this).data("id");
-
-    // Send the DELETE request.
-    $.ajax("/api/burger/" + id, {
-      type: "DELETE"
-    }).then(
-      function() {
-        console.log("deleted cat", id);
+        console.log("created new burger");
         // Reload the page to get the updated list
         location.reload();
       }
