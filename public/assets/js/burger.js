@@ -14,7 +14,7 @@ $(function() {
       data: newSleepState
     }).then(
       function() {
-        console.log("changed sleep to", newSleep);
+        console.log("changed sleep to", ate);
         // Reload the page to get the updated list
         location.reload();
       }
