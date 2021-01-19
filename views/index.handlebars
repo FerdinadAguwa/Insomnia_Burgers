@@ -22,7 +22,7 @@
 
 <div class="lineupBurger">
   <div class="delicacy">
-  <h2>Which delicacy would like to eat!</h2>
+  <h2 class="outline1">Which delicacy would like to eat!</h2>
   <br>
 
   <ul>
@@ -30,7 +30,7 @@
     {{#unless devoured}}
     {{burger_name}}
     <button class="Eat" data-id="{{id}}" data-newdevoured="{{devoured}}">
-      swallow
+      EAT UP!!!
     </button>
     <br>
     {{/unless}}
@@ -39,7 +39,7 @@
 </div>
 
 <div class="devoured">
-  <h2>Burgers already DEVOURED!</h2>
+  <h2 class="outline2">Burgers already DEVOURED!</h2>
 
   <ul>
     {{#each burger}}
@@ -51,3 +51,8 @@
   </ul>
   </div>
 </div>
+
+<br>
+<br>
+<br>
+<footer> Create by Ferdinad Aguwa</footer>

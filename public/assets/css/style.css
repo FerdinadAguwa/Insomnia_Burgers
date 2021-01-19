@@ -1,3 +1,6 @@
+html{
+  margin-top: 10px;
+}
 li {
   padding: 5px;
   margin: 5px;
@@ -20,8 +23,15 @@ li {
 }
 
 body{
-background-color: rgb(190, 149, 149);
-}
+  background: url(/images/burgerbackdrop.jpg) no-repeat center center fixed; 
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;  
+  color: white;
+  height: 100%;
+  }
+
 .headerTitle{ 
 background-color: blanchedalmond;
 width: 100%;
@@ -41,6 +51,7 @@ outline: 5px solid black;
 .title{
   font-size: 150px;
   text-align: center;
+  color: black;
 }
 
 .lineupBurger{
@@ -54,6 +65,14 @@ outline: 5px solid black;
 
 .pickOne{
   text-align: center;
+  margin-top: 100px;
   
+
+}
+
+.outline2 .outline1{
+  -webkit-text-stroke-width: 1px;
+  -webkit-text-stroke-color: white;
+
 
 }
