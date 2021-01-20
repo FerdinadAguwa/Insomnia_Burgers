@@ -33,7 +33,7 @@ body{
   }
 
 .headerTitle{ 
-background-color: blanchedalmond;
+background-color: rgba(255, 235, 205, 0.459);
 width: 100%;
 padding-top: 25px;
 padding-bottom: 25px;
@@ -61,7 +61,7 @@ outline: 5px solid black;
 }
 .delicacy{
   margin-right: 100px;
-  background-color: rgba(83, 55, 55, 0.253);
+  background-color: rgba(83, 55, 55, 0.308);
   width: fit-content;
   border-radius: 10px;
   text-align: center;
@@ -69,7 +69,7 @@ outline: 5px solid black;
 
 .devoured{
   margin-right: 100px;
-  background-color: rgba(83, 55, 55, 0.253);
+  background-color: rgba(83, 55, 55, 0.493);
   width: fit-content;
   border-radius: 10px;
   text-align: center;
