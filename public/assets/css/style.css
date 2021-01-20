@@ -61,8 +61,19 @@ outline: 5px solid black;
 }
 .delicacy{
   margin-right: 100px;
+  background-color: rgba(83, 55, 55, 0.253);
+  width: fit-content;
+  border-radius: 10px;
+  text-align: center;
 }
 
+.devoured{
+  margin-right: 100px;
+  background-color: rgba(83, 55, 55, 0.253);
+  width: fit-content;
+  border-radius: 10px;
+  text-align: center;
+}
 .pickOne{
   text-align: center;
   margin-top: 100px;
@@ -70,9 +81,22 @@ outline: 5px solid black;
 
 }
 
-.outline2 .outline1{
+.outline2{
+  color: white;
   -webkit-text-stroke-width: 1px;
   -webkit-text-stroke-color: white;
+  font-size: 35px;
 
 
+}
+.outline1{
+  color: white;
+  -webkit-text-stroke-width: 1px;
+  -webkit-text-stroke-color: white;
+  font-size: 35px;
+  
+}
+
+#text{
+  font-size: 30px;
 }
