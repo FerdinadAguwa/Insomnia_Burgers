@@ -1,3 +1,10 @@
+[![Contributors][contributors-shield]][contributors-url]
+[![Forks][forks-shield]][forks-url]
+[![Stargazers][stars-shield]][stars-url]
+[![Issues][issues-shield]][issues-url]
+[![MIT License][license-shield]][license-url]
+[![LinkedIn][linkedin-shield]][linkedin-url]
+
 # Ferdinad Aguwa - BurgerApp
 ## Description
 Here at Insomnia Burgers we make it as you order it. The application before you is set up to let the user create the burger that their heart desires. Its simple really, imput a burger that you would like to eat and the burger will appear on the screen. When the user wants to EAT UP, it will appear in the devour section. 
