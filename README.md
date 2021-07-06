@@ -19,9 +19,8 @@ This handle-bars based application is intended to help the user keep track of th
 Main Features:
 
 * A fully functional home page that allows users to navigate to other parts of the website
-* Carousel feature displays new and exciting games on the home page
 * Allows users to create any burger they would like to eat
-* Allows user to devour or relocate the item (created burger)
+* Allows user to devour or relocate the item to the devour section(created burger)
 
 ## Links
 
@@ -41,7 +40,6 @@ Main Features:
 * CSS
 * MySQL
 * [Handlebars](https://handlebarsjs.com/)
-* [Boostrap](https://getbootstrap.com/)
 * [Express](https://expressjs.com/)
 * [NodeJS](https://nodejs.dev/)
 
@@ -66,11 +64,9 @@ APIs Used:
 
 > Design Team:
 * Ferdinad Aguwa
-   * Created the initial Github repository and the rough skeleton MVC file design 
+   * Created the initial Github repository and the rough skeleton MVP file design 
    * Designed the "Home" page
-   * Designed the "Purchase Games" page
-   * Designed and created the card item rendering feature for the "Purchase Games" page
-   * Designed and created the "Home" page carousel feature
+   * Added cards through handlebars html and css
    * Deployed the application to Heroku
     
 
