@@ -1,35 +1,90 @@
 
-# Ferdinad Aguwa - BurgerApp
-## Description
-Here at Insomnia Burgers we make it as you order it. The application before you is set up to let the user create the burger that their heart desires. Its simple really, imput a burger that you would like to eat and the burger will appear on the screen. When the user wants to EAT UP, it will appear in the devour section. 
+# Insomnia Burgers
 
+## Description
+This handle-bars based application is intended to help the user keep track of the burgers that he or she is creating and devouring. Wben the user types and input the application will store the value in the burgers to eat. When the user clicks the devour button the burger will then move to the devour side of the page. This application employs MySQL as the database with Node.js and Epress.js on the backend. The user interface was created with CSS and HTML.
 ## Table of Contents
-* [License](#license)
-* [Pitch](#pitch)
-* [Contributing](#contributing)
+
+* [Features](#Features)
 * [Links](#Links)
-* [Tenchnologies](#Technologies)
-* [Developer](#Developer)
-## License
-MIT
-## Contributing
+* [Application-Preview](#Application-Preview)
+* [Technologies](#Technologies)
+* [Reference](#Reference)
+* [Credits](#Credits)
+* [Contributors](#Contributors)
+* [License](#License)
+
+
+## Features 
+Main Features:
+
+* A fully functional home page that allows users to navigate to other parts of the website
+* Carousel feature displays new and exciting games on the home page
+* Allows users to create any burger they would like to eat
+* Allows user to devour or relocate the item (created burger)
 
 ## Links
-* GitHub repository URL: https://github.com/FerdinadAguwa
+
+* Project Repo: [Repository](https://github.com/chidibangzz/Project_3)
+* Deployed Heroku Application: [Website](https://project-3-react.herokuapp.com/)
+
+## Application-Preview
+
+[Insomnia Burger Home Page]
+
+<img src= "public/images/burgerscreen.png" alt= "Header to the page " width=500px />
+
 ## Technologies
-### Languages
-* HTML, CSS, JavaScript, JQuery ,Node, HandleBars, MySQL, Express
-### FrameWorks
-* Visual Studio Code
-## Page Preview
-* Screenshots
 
-<img src= "public/images/burgerscreen.png"
-alt= "Header to the page "
-width=500px
-/>
+* Javascript
+* HTML
+* CSS
+* MySQL
+* [Handlebars](https://handlebarsjs.com/)
+* [Boostrap](https://getbootstrap.com/)
+* [Express](https://expressjs.com/)
+* [NodeJS](https://nodejs.dev/)
+
+## References
+
+These are the websites we used as references: 
+
+> - [StackOverflow](https://www.stackoverflow.com/) || Most issues we had were resolved from looking at other people's problems.
+
+How to create a good README here: 
+
+> - [GitHub Docs](https://docs.github.com/en/free-pro-team@latest/github/writing-on-github/basic-writing-and-formatting-syntax) || Learned most of my README syntax here.
+> - [Mark Down Guide](https://www.markdownguide.org/cheat-sheet/) || README Syntax
+
+## Credits
+
+APIs Used: 
+
+> - N/A
+
+## Contributors
+
+> Design Team:
+* Ferdinad Aguwa
+   * Created the initial Github repository and the rough skeleton MVC file design 
+   * Designed the "Home" page
+   * Designed the "Purchase Games" page
+   * Designed and created the card item rendering feature for the "Purchase Games" page
+   * Designed and created the "Home" page carousel feature
+   * Deployed the application to Heroku
+    
 
 
+> Instructors That Helped Us:
+* Anna Connover
+  * Helped me resolve syntax errors I was experiencing  
+* Fernando Medina
+  * Helped us heavily with setting up the initial backend controllers, and models.
+
+
+## License
+
+MIT © [Ferdiand Aguwa](https://github.com/FerdinadAguwa)
 
 
 ## Developer
@@ -41,3 +96,5 @@ width=500px
      alt="Contributer Photo"
      width=270px
      style="float: left; margin-right: 10px;"/>
+
+
